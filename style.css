@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 2px gray,5px 5px 2px red ;
+    font-size: 45px;
+}
+.card{
+    width: 30%;
+    border: 1px solid cyan;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+.card img{
+    width: 100%;
+}
+.content{
+    padding: 14px;
+}
+.content h2{
+    border: 1px solid white;
+    margin-top: 4px;
+    text-align: center;
+    color: black;
+}
+.content p{
+    color: lightsalmon;
+    font-size: 16px;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px brown ;
+}
+#container{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+h1:hover{
+    cursor: pointer;
+    text-shadow: 5px 5px 5px cyan;
+    background-color: black;
+    height: 75px;
+    color: white;
+}
+h2:hover{
+    box-shadow: 5px 5px 5px cyan;
+}
